@@ -1,0 +1,82 @@
+/* Header */
+#header img {
+    width: 200px;
+    margin: 20px;
+    height: auto;
+}
+
+a.nav-link {
+    color: black;
+}
+
+/* Hero Section */
+button.btn.btn-primary.btn-lg {
+    border: solid black 2px;
+    background-color: transparent !important;
+    color: black;
+}
+
+div#hero {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h1.hero-section {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+button.btn.btn-primary.btn-lg {
+    margin-top: 20px;
+}
+
+/* About Section */
+
+.row.featurette {
+    align-items: center;
+    margin: 50px;
+}
+
+.col-md-5 img {
+    width: 300px;
+    height: auto;
+}
+
+.col-md-5 {
+    text-align: center;
+}
+
+/* Shipping Section */
+
+div#shipping {
+    background-color:#79729C;
+    margin: 0;
+    padding: 30px;
+    color: white;
+}
+
+/* Product Section */
+
+#custom-cards img {
+    width: 450px;
+    height: auto;
+}
+
+/* Before Section */
+
+#before img {
+    height: 400px;
+}
+
+/* Footer Section */
+
+footer img {
+    width: 300px;
+}
+
+footer {
+    background-color: #E0D3DE;
+}
