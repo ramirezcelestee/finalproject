@@ -92,7 +92,12 @@ div#products {
 /* Before Section */
 
 #before img {
-    height: 400px;
+    height: auto;
+    width: 100%;
+}
+
+div#before {
+    padding: 50px;
 }
 
 /* Footer Section */
