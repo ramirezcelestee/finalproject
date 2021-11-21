@@ -5,6 +5,12 @@
     height: auto;
 }
 
+#hero {
+    background-image: url("images/header.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 a.nav-link {
     color: black;
 }
@@ -17,8 +23,8 @@ button.btn.btn-primary.btn-lg {
 }
 
 div#hero {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding: 100px;
+    text-align: center;
 }
 
 h1.hero-section {
@@ -58,11 +64,29 @@ div#shipping {
     color: white;
 }
 
+#shipping .col-sm-4 {
+    text-align: center;
+}
+
 /* Product Section */
 
-#custom-cards img {
-    width: 450px;
+#products img {
+    width: 100%;
     height: auto;
+}
+
+#products .col-sm-4 {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#products button.btn.btn-primary.btn-lg {
+    width: 50%;
+}
+
+div#products {
+    padding: 50px;
 }
 
 /* Before Section */
